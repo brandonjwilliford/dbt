@@ -1,6 +1,7 @@
 {#
     Syntax: Databricks SQL
     Applies a dense_rank function, but returns null where the partition column (or null_safe column) is null
+    
     The 'null_safe_col' parameter allows for a not-null condition that is different from the partition column. Default equals the partition column.
 #}
 
